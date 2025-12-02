@@ -8,7 +8,7 @@ CORS(app)  # Allow cross-origin requests
 def index():
     return "Simple API is running!"
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict')
 def predict():
     return "Hello World!"
 #     data = request.json
